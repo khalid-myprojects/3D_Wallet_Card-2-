@@ -1,0 +1,28 @@
+name: premium_card_app
+description: Premium 3D Credit Card Experience
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  sensors_plus: ^4.0.2
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  glassmorphism: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
